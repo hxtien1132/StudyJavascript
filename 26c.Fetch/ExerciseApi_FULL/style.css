@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to right, rgb(246, 239, 239), rgb(233, 244, 224));
+}
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 60px;
+}
+form {
+  border: 1px solid;
+  padding: 15px 30px;
+}
+.form-group {
+  margin: 10px 10px;
+  display: flex;
+  width: 320px;
+  /* justify-content: space-between; */
+}
+
+.form-lable {
+  width: 100px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.form-control-checkbox,
+.form-control-select,
+.form-control-textarea {
+  padding: 5px 10px;
+  border: 1px solid rgb(red, green, blue);
+}
+
+
+.form-control-checkbox {
+  display: inline-block;
+  margin-right: 5px;
+}
+.box-group,
+.form-control-select,
+.form-control,
+.form-control-textarea {
+  width: 100%;
+}
+.radio-group{
+    /* display: flex; */
+    /* column-gap: 30px; */
+}
+.form-control-radio {
+  /* width: 100%; */
+  /* margin-right: 10px;
+  padding: 0 100px; */
+  margin: 5px;
+}
+table, th, td {
+   border-collapse: collapse;
+  border:1px solid black;
+  padding: 0 10px;
+}
+button{
+ padding: 3px 6px;
+ margin: 2px;
+}
+.hide{
+display: none;
+}
+.search {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  padding: 5px 0;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.search input {
+  width: 100%;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+.search i {
+  position: absolute;
+  right: 0;
+  color: #333;
+  padding: 5px;
+}

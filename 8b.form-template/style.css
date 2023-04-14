@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    color: #2f6b66;
+
+}
+.container{
+
+    width: 50%;
+    margin: auto;
+}
+.form-group{
+    margin: 7px;
+    display: block;
+}
+.form-lable{
+    width: 100px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.form-control , .form-control-checkbox, .form-control-select, .form-control-textarea{
+    padding: 5px 10px;
+    border: 1px solid rgb(red, green, blue);
+}
+
+.form-control-checkbox ,.form-control-radio
+{
+display: inline;
+margin-right:5px ;
+}
+.form-control-select,.form-control,.form-control-textarea{
+    width: 100%;
+
+}
+.form-control:focus , 
+.form-control-checkbox:focus,
+ .form-control-select:focus,
+  .form-control-textarea:focus 
+,.form-control-radio:focus {
+    outline: none !important ;
+    border: 1px solid red;
+    box-shadow:  0 0 10px #62d12f;
+}
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(0,113,212);
+}
+.btn{
+    border-radius: 10px;
+    height: 35px;
+    width: 70px;
+    background-color: rgb(7,204,161);
+    box-shadow: 2px 3px rgb(4,139,110);
+    border: 1px solid rgb(7,204,161);
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(15,241,230);
+    box-shadow: 2px 3px rgb(103,224,22);
+    cursor: pointer;
+}
+.btns{
+    text-align: center;
+}
+.border-group{
+    border: 1px solid rgb(42, 196,235);
+    padding: 8px;
+    width: 100%;
+}
+.invalid{
+    background: yellow url("./img/Button-Close-icon.png") no-repeat 97% center;
+}
+.valid{
+    color: rgb(0,15,219) !important;
+    background: rgb(87,240,176) url("./img/Accept-icon.png") no-repeat 97% center ;
+}
+.invalid-rc{
+    border: 1px solid yellow !important;
+    box-shadow:  0 0 10px yellow;
+
+
+}
+

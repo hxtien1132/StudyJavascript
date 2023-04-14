@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, rgb(253, 253, 180), rgb(210, 239, 163));
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+form {
+  border: 1px solid black;
+  width: 400px;
+}
+.form-group {
+  display: flex;
+  /* width: 100%; */
+  margin: 15px 30px;
+  /* justify-content: center; */
+}
+.form-group label{
+ flex: 30%;
+ font-size: 16px;
+ font-weight: bold;
+}
+.form-group input, .form-control-textarea, .form-control-select, .checkbox-group, .radio-group{
+    flex: 70%;
+    
+}
+.form-group input[type=text],.form-group select{
+   padding: 3px 6px;
+}
+.search{
+ position: relative;
+ margin-bottom: 30px;
+}
+.search label{
+ font-size: 22px;
+ font-weight: bold;
+ font-family: sans-serif;
+}
+.search i{
+ position: absolute;
+ right: 2px;
+ top: 2px;
+ font-size: 20px;
+ background: bisque;
+}
+.search input{
+ padding: 3px 8px;
+}
+
+.checkbox-group{
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.radio-group .form-control-radio{
+    margin-left: 20px;
+    padding: 2px 4px;
+}
+.btn-group{
+ gap: 20px;
+}
+.btn-group button{
+    flex: 20%;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: rgb(42, 220, 22);
+    font-weight: bold;
+    font-family: sans-serif;
+} 
+table, th, td {
+  border:1px solid black;
+}
+th, td {
+  padding: 15px;
+}
+.hide{
+display: none;
+}

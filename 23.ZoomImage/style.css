@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+#result {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+#mirror {
+  margin: 100px;
+  width: 250px;
+  height: 250px;
+  background-image: url(./img/bailu2.jpg) ;
+  background-size: 1000px 1000px;
+
+
+
+}
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin: 60px;
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+body {
+  height: 100vh;
+  margin: 10px;
+}
+.tool {
+  display: flex;
+  align-items: center;
+  background: rgb(90, 118, 179);
+}
+.tool > * {
+  height: 40px;
+  width: 40px;
+  background: white;
+  margin: 5px;
+  font-size: 20px;
+  padding: 5px;
+}
+#save {
+  margin-left: auto;
+}

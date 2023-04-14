@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typing-wrapper p {
+  color: greenyellow;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: 0 0 100px greenyellow;
+  white-space: nowrap;
+  overflow: hidden;
+  /* animation: typing 3s steps(30) infinite, blink 3s infinite;  */
+}
+@keyframes typing {
+  0%,
+  100% {
+    width: 0%;
+  }
+  80% {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 10px solid yellowgreen;
+  }50%{
+    border-right: 10px solid transparent ;
+}
+}
